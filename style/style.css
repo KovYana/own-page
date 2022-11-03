@@ -1,0 +1,97 @@
+:root {
+  --first-color: #e9e2d0;
+
+  --second-color: #ea9085;
+
+  --third-color: #d45d79;
+
+  --fourth-color: #6e5773;
+}
+body {
+  margin: 60px auto;
+  max-width: 800px;
+  text-align: center;
+}
+h1 {
+  font-size: 48px;
+  margin: 0;
+  color: var(--fourth-color);
+}
+strong {
+  font-size: 65px;
+  color: var(--third-color);
+}
+h2 {
+  font-size: 25px;
+  color: var(--fourth-color);
+}
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+  margin: 10px;
+}
+h4 {
+  font-size: 24px;
+  color: var(--fourth-color);
+}
+.hello-imagine {
+  width: 150px;
+}
+.navigation-links {
+  display: flex;
+  justify-content: center;
+}
+.contact-link {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--second-color);
+  color: white;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.about-link {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--second-color);
+  border: 1px solid var(--second-color);
+}
+.back-to-homepage {
+  margin: 15px;
+  display: block;
+  text-decoration: none;
+}
+.back-to-homepage:hover {
+  text-decoration: underline;
+  color: var(--third-color);
+}
+.about-paragraf {
+  margin: 30px 0;
+}
+p {
+  background: var(--first-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.contact {
+  display: block;
+  margin: 25px;
+  font-size: 28px;
+  color: var(--fourth-color);
+}
+.mail-imagine {
+  width: 50px;
+  color: var(--second-color);
+}
+.apps {
+  color: var(--third-color);
+  font-size: 25px;
+}
