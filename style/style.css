@@ -34,6 +34,16 @@ h4 {
   font-size: 24px;
   color: var(--fourth-color);
 }
+p {
+  background: var(--first-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 10px;
+}
+
 .hello-imagine {
   width: 150px;
 }
@@ -71,14 +81,6 @@ h4 {
 }
 .about-paragraf {
   margin: 30px 0;
-}
-p {
-  background: var(--first-color);
-  padding: 20px;
-  border-radius: 4px;
-  font-size: 14px;
-  line-height: 1.5;
-  text-align: center;
 }
 
 .contact {
