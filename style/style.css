@@ -7,6 +7,7 @@
 
   --fourth-color: #6e5773;
 }
+
 body {
   margin: 60px auto;
   max-width: 800px;
@@ -43,6 +44,30 @@ p {
   text-align: center;
   margin: 10px;
 }
+@media (max-width: 576px) {
+  body {
+    max-width: 500px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  strong {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  .imagine {
+    display: none;
+  }
+  .projects {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .about-paragraf-desc {
+    font-size: 17px;
+  }
+}
 
 .hello-imagine {
   width: 150px;
@@ -70,15 +95,7 @@ p {
   color: var(--second-color);
   border: 1px solid var(--second-color);
 }
-.back-to-homepage {
-  margin: 15px;
-  display: block;
-  text-decoration: none;
-}
-.back-to-homepage:hover {
-  text-decoration: underline;
-  color: var(--third-color);
-}
+
 .about-paragraf {
   margin: 30px 0;
 }
