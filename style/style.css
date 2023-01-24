@@ -68,6 +68,18 @@ p {
     font-size: 17px;
   }
 }
+.projects{
+  margin: auto;
+}
+.project-link{
+  text-decoration: none;
+  color: var(--fourth-color);
+}
+.project-link:hover{
+  color: var(--fourth-color);
+}
+
+
 
 .hello-imagine {
   width: 150px;
