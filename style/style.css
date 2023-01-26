@@ -9,7 +9,7 @@
 }
 
 body {
-  margin: 60px auto;
+  margin: 10px 60px auto;
   max-width: 800px;
   text-align: center;
 }
@@ -44,7 +44,24 @@ p {
   text-align: center;
   margin: 10px;
 }
-@media (max-width: 576px) {
+
+footer {
+  margin-top: auto;
+  background-color: white;
+  padding: 10px 10px;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--second-color);
+  background-color: var(--first-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+@media (max-width: 800px) {
   body {
     max-width: 500px;
   }
@@ -125,4 +142,15 @@ p {
 .apps {
   color: var(--third-color);
   font-size: 25px;
+}
+
+.bottom-link{
+  background: white;
+}
+
+  .bottom-link a{
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--fourth-color);
+  text-decoration: none;
 }
