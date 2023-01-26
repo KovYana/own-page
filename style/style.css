@@ -9,10 +9,12 @@
 }
 
 body {
-  margin: 10px 60px auto;
+  margin: 10px auto;
   max-width: 800px;
   text-align: center;
+  
 }
+
 h1 {
   font-size: 48px;
   margin: 0;
@@ -85,6 +87,8 @@ footer .social-links a {
     font-size: 17px;
   }
 }
+
+
 .projects{
   margin: auto;
 }
