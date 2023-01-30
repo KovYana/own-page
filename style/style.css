@@ -6,6 +6,11 @@
   --third-color: #d45d79;
 
   --fourth-color: #6e5773;
+
+  --heading-font-family:'Playfair Display', serif;
+
+  --default-font-family:'Poppins', sans-serif;
+  
 }
 
 body {
@@ -23,6 +28,9 @@ h1 {
 strong {
   font-size: 65px;
   color: var(--third-color);
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+
 }
 h2 {
   font-size: 25px;
@@ -42,9 +50,21 @@ p.project-content {
   padding: 20px;
   border-radius: 4px;
   font-size: 14px;
+  font-family: var(--default-font-family);
   line-height: 1.5;
   text-align: center;
   margin: 10px;
+}
+
+h1.about-me-title{
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  color: var(--third-color);
+}
+
+h3.about-me-subtitle{
+  font-family: var(--heading-font-family);
+  color: var(--third-color);
 }
 
 footer {
@@ -100,8 +120,6 @@ footer .social-links a {
   color: var(--fourth-color);
 }
 
-
-
 .hello-imagine {
   width: 150px;
 }
@@ -130,12 +148,14 @@ footer .social-links a {
 }
 
 .about-paragraf {
-  margin: 30px 0;
+  margin: auto;
 }
 
 p.about-paragraf-desc{
-  font-size: 20px;
+  font-family: var(--default-font-family);
+  font-size: 18px;
   text-align: left;
+  color: var(--fourth-color);
 }
 
 .contact {
@@ -159,6 +179,7 @@ p.about-paragraf-desc{
 
 .bottom-link a{
   font-size: 18px;
+  font-family: var(--default-font-family);
   line-height: 30px;
   color: var(--fourth-color);
   text-decoration: none;
