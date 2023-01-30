@@ -44,6 +44,7 @@ h3 {
 h4 {
   font-size: 24px;
   color: var(--fourth-color);
+  font-family: var(--heading-font-family);
 }
 p.project-content {
   background: var(--first-color);
